@@ -1,0 +1,12 @@
+  <mat-toolbar color="primary">
+      <button mat-button [matMenuTriggerFor]="aboveMenu">database</button>
+      <mat-menu #aboveMenu="matMenu" yPosition="above">
+        <button mat-menu-item (click)="generatedata()">remplir BD</button>
+        <button mat-menu-item>vidée database</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="aboveMenu">Séance 2</button>
+      <mat-menu #aboveMenu="matMenu" yPosition="above">
+        <button mat-menu-item>Parti 1</button>
+        <button mat-menu-item>Parti 2</button>
+      </mat-menu>
+  </mat-toolbar>

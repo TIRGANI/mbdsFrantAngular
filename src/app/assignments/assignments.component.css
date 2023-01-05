@@ -1,0 +1,14 @@
+p{
+    color: black;
+}
+table,tr,td{
+    border:1px solid black;
+}
+.nonrendu{
+    background-color: red;
+}
+.rendu{
+    background-color: green;
+}
+
+ 
